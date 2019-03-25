@@ -9,103 +9,83 @@
 
     <ImageView
         android:id="@+id/logoImg"
-        android:layout_width="267dp"
+        android:layout_width="411dp"
         android:layout_height="233dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="72dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_finsur" />
+        app:srcCompat="@drawable/logo_finsur"
+        tools:layout_editor_absoluteY="66dp" />
 
 
     <TextView
         android:id="@+id/name_text_log"
-        android:layout_width="wrap_content"
+        style="@style/nombre_finsur"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
         android:width="542dp"
         android:height="53dp"
         android:gravity="center"
-        style="@style/nombre_finsur"
         android:text="Financiera del Sur"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/logoImg"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="229dp" />
 
     <EditText
         android:id="@+id/etUsuario"
 
-        android:layout_width="275dp"
+        android:layout_width="347dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
         android:background="@drawable/caja_texto_shape"
         android:ems="10"
         android:hint="Usuario"
-        android:textAlignment="center"
         android:inputType="textPersonName"
-        android:textColorHint="@color/white"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoImg" />
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="345dp" />
 
     <EditText
         android:id="@+id/etPassword"
-        android:layout_width="275dp"
+        android:layout_width="347dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:background="@drawable/caja_texto_shape"
         android:ems="10"
-        android:textAlignment="center"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColorHint="@color/white"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etUsuario" />
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="418dp" />
 
     <Button
         android:id="@+id/btnIngresar"
         style="@style/button_text_style"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_width="162dp"
+        android:layout_height="55dp"
         android:background="@drawable/button_shape"
         android:text="Ingresar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="561dp" />
 
     <TextView
         android:id="@+id/txtRecoveryPass"
         style="@style/link_style"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_height="31dp"
         android:text="@string/recuperar_contra"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnIngresar" />
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="652dp" />
 
     <TextView
         android:id="@+id/txtCreateAcount"
         style="@style/link_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:linksClickable="true"
         android:text="Crear cuenta"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtRecoveryPass" />
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="675dp" />
 
 
 </android.support.constraint.ConstraintLayout>

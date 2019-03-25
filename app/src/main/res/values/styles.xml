@@ -38,6 +38,22 @@
         <item name="android:lineSpacingMultiplier">1.29</item>
     </style>
 
+    <style name="titulo_profile">
+        <item name="android:fontFamily">Glacial Indifference</item>
+        <item name="android:textColor">#FF47525E</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+
+
+        <style name="text_profile">
+            <item name="android:fontFamily">Glacial Indifference</item>
+            <item name="android:textColor">#FF47525E</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:lineSpacingMultiplier">1.3</item>
+        </style>
+
 
 
 
