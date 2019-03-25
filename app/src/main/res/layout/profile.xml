@@ -40,6 +40,7 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="395dp"
+        style="@style/Widget.MaterialComponents.CardView"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="375dp">
